@@ -20,6 +20,10 @@
 		06DAC4F126F3A96200B2E142 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC4F026F3A96200B2E142 /* LoginTextField.swift */; };
 		06DAC4F526F3A99E00B2E142 /* FinishButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC4F426F3A99E00B2E142 /* FinishButton.swift */; };
 		06DAC4FC26F3C2ED00B2E142 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC4FB26F3C2ED00B2E142 /* UIViewController+Extensions.swift */; };
+		06DAC4FF26F3C3D000B2E142 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC4FE26F3C3D000B2E142 /* Authentication.swift */; };
+		06DAC50226F3C41500B2E142 /* Model+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC50126F3C41500B2E142 /* Model+Extensions.swift */; };
+		06DAC50726F3C59D00B2E142 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC50626F3C59D00B2E142 /* AccountModel.swift */; };
+		06DAC50A26F3C63300B2E142 /* DomainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC50926F3C63300B2E142 /* DomainError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,10 @@
 		06DAC4F026F3A96200B2E142 /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
 		06DAC4F426F3A99E00B2E142 /* FinishButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishButton.swift; sourceTree = "<group>"; };
 		06DAC4FB26F3C2ED00B2E142 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		06DAC4FE26F3C3D000B2E142 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		06DAC50126F3C41500B2E142 /* Model+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model+Extensions.swift"; sourceTree = "<group>"; };
+		06DAC50626F3C59D00B2E142 /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
+		06DAC50926F3C63300B2E142 /* DomainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +226,38 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		06DAC4FD26F3C3B900B2E142 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				06DAC4FE26F3C3D000B2E142 /* Authentication.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		06DAC50026F3C3F100B2E142 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				06DAC50126F3C41500B2E142 /* Model+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		06DAC50526F3C58300B2E142 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				06DAC50626F3C59D00B2E142 /* AccountModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		06DAC50826F3C61800B2E142 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				06DAC50926F3C63300B2E142 /* DomainError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -356,11 +396,15 @@
 				06DAC4EA26F38EA100B2E142 /* CodeViewProtocol.swift in Sources */,
 				06DAC4B826F38A2C00B2E142 /* LoginViewController.swift in Sources */,
 				06DAC4B426F38A2C00B2E142 /* AppDelegate.swift in Sources */,
+				06DAC50226F3C41500B2E142 /* Model+Extensions.swift in Sources */,
 				06DAC4E726F38E3100B2E142 /* LoginView.swift in Sources */,
 				06DAC4FC26F3C2ED00B2E142 /* UIViewController+Extensions.swift in Sources */,
 				06DAC4F126F3A96200B2E142 /* LoginTextField.swift in Sources */,
 				06DAC4F526F3A99E00B2E142 /* FinishButton.swift in Sources */,
+				06DAC50726F3C59D00B2E142 /* AccountModel.swift in Sources */,
 				06DAC4B626F38A2C00B2E142 /* SceneDelegate.swift in Sources */,
+				06DAC50A26F3C63300B2E142 /* DomainError.swift in Sources */,
+				06DAC4FF26F3C3D000B2E142 /* Authentication.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
