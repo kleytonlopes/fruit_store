@@ -19,6 +19,7 @@
 		06DAC4EE26F391AF00B2E142 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 06DAC4ED26F391AF00B2E142 /* SnapKit */; };
 		06DAC4F126F3A96200B2E142 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC4F026F3A96200B2E142 /* LoginTextField.swift */; };
 		06DAC4F526F3A99E00B2E142 /* FinishButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC4F426F3A99E00B2E142 /* FinishButton.swift */; };
+		06DAC4FC26F3C2ED00B2E142 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC4FB26F3C2ED00B2E142 /* UIViewController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		06DAC4E926F38EA100B2E142 /* CodeViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewProtocol.swift; sourceTree = "<group>"; };
 		06DAC4F026F3A96200B2E142 /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
 		06DAC4F426F3A99E00B2E142 /* FinishButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishButton.swift; sourceTree = "<group>"; };
+		06DAC4FB26F3C2ED00B2E142 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 		06DAC4E526F38E1300B2E142 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				06DAC4FA26F3C2CB00B2E142 /* Helpers */,
 				06DAC4EB26F38F0B00B2E142 /* Login */,
 			);
 			path = Scenes;
@@ -183,6 +186,10 @@
 		06DAC4F626F3C1C600B2E142 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				06DAC50826F3C61800B2E142 /* Errors */,
+				06DAC50526F3C58300B2E142 /* Models */,
+				06DAC50026F3C3F100B2E142 /* Helpers */,
+				06DAC4FD26F3C3B900B2E142 /* UseCases */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -201,6 +208,14 @@
 				06DAC4F426F3A99E00B2E142 /* FinishButton.swift */,
 			);
 			path = Buttons;
+			sourceTree = "<group>";
+		};
+		06DAC4FA26F3C2CB00B2E142 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				06DAC4FB26F3C2ED00B2E142 /* UIViewController+Extensions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,6 +357,7 @@
 				06DAC4B826F38A2C00B2E142 /* LoginViewController.swift in Sources */,
 				06DAC4B426F38A2C00B2E142 /* AppDelegate.swift in Sources */,
 				06DAC4E726F38E3100B2E142 /* LoginView.swift in Sources */,
+				06DAC4FC26F3C2ED00B2E142 /* UIViewController+Extensions.swift in Sources */,
 				06DAC4F126F3A96200B2E142 /* LoginTextField.swift in Sources */,
 				06DAC4F526F3A99E00B2E142 /* FinishButton.swift in Sources */,
 				06DAC4B626F38A2C00B2E142 /* SceneDelegate.swift in Sources */,
