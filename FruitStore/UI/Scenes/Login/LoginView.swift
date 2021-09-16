@@ -7,7 +7,6 @@
 
 import UIKit
 
-
 final class LoginView: UIView {
     
     override init(frame: CGRect = .zero) {
@@ -32,8 +31,11 @@ final class LoginView: UIView {
     
     lazy var textFieldUsername: UITextField = LoginTextField(placeholder: "entre o username")
     
-    
     lazy var textFieldPassword: UITextField = LoginTextField(placeholder: "entre com a senha", isSecureTextEntry: true)
+    
+    @objc func handleLogin(){
+        print("Clicou")
+    }
 }
 
 extension LoginView: CodeViewProtocol {
@@ -60,6 +62,7 @@ extension LoginView: CodeViewProtocol {
     
     func setupConfiguration() {
         self.backgroundColor = .lightGray
+        button.addTarget(self, action:#selector(self.handleLogin), for: .touchUpInside)
     }
     
     

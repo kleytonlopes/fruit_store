@@ -107,6 +107,7 @@
 		06DAC4B226F38A2C00B2E142 /* FruitStore */ = {
 			isa = PBXGroup;
 			children = (
+				06DAC4F626F3C1C600B2E142 /* Domain */,
 				06DAC4E326F38D8C00B2E142 /* UI */,
 				06DAC4B326F38A2C00B2E142 /* AppDelegate.swift */,
 				06DAC4B526F38A2C00B2E142 /* SceneDelegate.swift */,
@@ -138,19 +139,19 @@
 		06DAC4E326F38D8C00B2E142 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				06DAC4EF26F3A32F00B2E142 /* Components */,
 				06DAC4E826F38E8100B2E142 /* CodeView */,
-				06DAC4E526F38E1300B2E142 /* ViewControllers */,
+				06DAC4E526F38E1300B2E142 /* Scenes */,
 			);
 			path = UI;
 			sourceTree = "<group>";
 		};
-		06DAC4E526F38E1300B2E142 /* ViewControllers */ = {
+		06DAC4E526F38E1300B2E142 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				06DAC4EF26F3A32F00B2E142 /* Components */,
 				06DAC4EB26F38F0B00B2E142 /* Login */,
 			);
-			path = ViewControllers;
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 		06DAC4E826F38E8100B2E142 /* CodeView */ = {
@@ -173,10 +174,33 @@
 		06DAC4EF26F3A32F00B2E142 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				06DAC4F026F3A96200B2E142 /* LoginTextField.swift */,
-				06DAC4F426F3A99E00B2E142 /* FinishButton.swift */,
+				06DAC4F926F3C24200B2E142 /* Buttons */,
+				06DAC4F826F3C23900B2E142 /* TextFields */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		06DAC4F626F3C1C600B2E142 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		06DAC4F826F3C23900B2E142 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				06DAC4F026F3A96200B2E142 /* LoginTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		06DAC4F926F3C24200B2E142 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				06DAC4F426F3A99E00B2E142 /* FinishButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
