@@ -5,6 +5,7 @@
 "login-alert-view-error-title" = "Error";
 "login-alert-view-error-message" = "Unauthorized User!";
 
+"fruit-list-alert-view-error-message" = "Algo inesperado aconteceu, tente novamente em alguns instantes.";
 "fruit-list-view-title" = "Fruits";
 "searchbar-placeholder" = "Search by name";
 

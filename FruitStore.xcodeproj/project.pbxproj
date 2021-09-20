@@ -348,12 +348,12 @@
 			path = UseCases;
 			sourceTree = "<group>";
 		};
-		06C2A0DB26F8FDCF00B301E5 /* New Group */ = {
+		06C2A0DB26F8FDCF00B301E5 /* XCTest+Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				06C2A0DC26F8FDE400B301E5 /* XCTest+Extensions.swift */,
 			);
-			path = "New Group";
+			path = "XCTest+Extensions";
 			sourceTree = "<group>";
 		};
 		06C2A0DE26F8FE6700B301E5 /* Views */ = {
@@ -405,7 +405,7 @@
 		06DAC4C926F38A3100B2E142 /* FruitStoreTests */ = {
 			isa = PBXGroup;
 			children = (
-				06C2A0DB26F8FDCF00B301E5 /* New Group */,
+				06C2A0DB26F8FDCF00B301E5 /* XCTest+Extensions */,
 				06C2A0D326F8ED0A00B301E5 /* PresenterTests */,
 				06DAC4CC26F38A3100B2E142 /* Info.plist */,
 			);

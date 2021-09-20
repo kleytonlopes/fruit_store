@@ -8,7 +8,6 @@
 import XCTest
 @testable import FruitStore
 
-
 class FruitListPresenterTests: XCTestCase {
     func test_get_fruits_array_should_show_generic_error_message_if_get_fails() {
         let getFruitsSpy = GetFruitsArraySpy()
@@ -16,7 +15,7 @@ class FruitListPresenterTests: XCTestCase {
         let sut = makeSut(getFruitsArray: getFruitsSpy, alertView: alertViewSpy)
         let exp = expectation(description: "waiting")
         alertViewSpy.observe { viewModel in
-            XCTAssertEqual(viewModel, AlertViewModel(title: "Erro", message: "Algo inesperado aconteceu, tente novamente em alguns instantes."))
+            XCTAssertEqual(viewModel, AlertViewModel(title: "login-alert-view-error-title".localized(), message: "fruit-list-alert-view-error-message".localized()))
             exp.fulfill()
         }
         sut.loadView()

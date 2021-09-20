@@ -10,6 +10,5 @@ import XCTest
 
 class TableViewSpy: TableView {
     func reloadData() {
-        
     }
 }

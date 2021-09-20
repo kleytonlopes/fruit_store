@@ -10,6 +10,5 @@ import XCTest
 
 class MenuButtonSpy: ShoppingCartMenuButton {
     func setQuantity(value: Int) {
-        
     }
 }

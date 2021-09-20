@@ -56,7 +56,7 @@ class FruiListPresenter: FruiListPresenterProtocol {
             guard let self = self else { return }
             switch result {
             case .failure:
-                self.alertView?.showMessage(viewModel: AlertViewModel(title: "Erro", message: "Algo inesperado aconteceu, tente novamente em alguns instantes."))
+                self.alertView?.showMessage(viewModel: AlertViewModel(title: "login-alert-view-error-title".localized(), message: "fruit-list-alert-view-error-message".localized()))
             case .success(let data):
                 self.allFruits = FruitCellViewModel.arrayfromFruitListModel(fruitListModel: data)
             }
