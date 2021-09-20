@@ -13,6 +13,7 @@ class FruiListPresenter: FruiListPresenterProtocol {
     // MARK: - UI Protocols
     var fruitsTableView: TableView?
     var shoppingCartMenuButton: ShoppingCartMenuButton?
+    var alertView: AlertView?
     // MARK: - Properties
     var allFruits = [FruitCellViewModel]()
     var filteredFruits: [FruitCellViewModel] {
@@ -39,10 +40,15 @@ class FruiListPresenter: FruiListPresenterProtocol {
         return quantity
     }
     // MARK: - Init
-    init(getFruitsArray: GetFruitsArray, fruitsTableView: TableView, menuButton: ShoppingCartMenuButton) {
+    init(
+        getFruitsArray: GetFruitsArray,
+        fruitsTableView: TableView,
+        menuButton: ShoppingCartMenuButton,
+        alertView: AlertView) {
         self.getFruitsArray = getFruitsArray
         self.fruitsTableView = fruitsTableView
         self.shoppingCartMenuButton = menuButton
+        self.alertView = alertView
     }
     // MARK: - Public Methods
     func loadView() {
@@ -50,10 +56,11 @@ class FruiListPresenter: FruiListPresenterProtocol {
             guard let self = self else { return }
             switch result {
             case .failure:
-                print("Error get Fruits")
+                self.alertView?.showMessage(viewModel: AlertViewModel(title: "Erro", message: "Algo inesperado aconteceu, tente novamente em alguns instantes."))
             case .success(let data):
-                self.allFruits = FruitCellViewModel.fromFruitListModel(fruitListModel: data)
+                self.allFruits = FruitCellViewModel.arrayfromFruitListModel(fruitListModel: data)
             }
+            self.fruitsTableView?.reloadData()
         })
     }
     func configure(cell: FruitCellView, forRow row: Int) {

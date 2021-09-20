@@ -50,3 +50,10 @@ extension FruitListViewController: ShoppingCartMenuButton {
         self.shoppingCartButton.setQuantity(value: value)
     }
 }
+
+extension FruitListViewController: AlertView {
+    func showMessage(viewModel: AlertViewModel) {
+        let alert = UIAlertController.confirmation(title: viewModel.title, message: viewModel.message)
+        present(alert, animated: true)
+    }
+}

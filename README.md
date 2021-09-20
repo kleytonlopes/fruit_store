@@ -1,6 +1,5 @@
 # Fruit Store, Swift iOS App
 MVP, Snapkit, SDWebImage
 
-Login: 
-Username -> Teste
-Password -> 1234
+Login Válido: 
+Username: Teste / Password: 1234

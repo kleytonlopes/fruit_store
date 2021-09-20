@@ -37,12 +37,17 @@
 		06C2A0CB26F8B18700B301E5 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2A0CA26F8B18700B301E5 /* UIImageView+Extensions.swift */; };
 		06C2A0CF26F8CBB200B301E5 /* MainQueueDispatchDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2A0CE26F8CBB200B301E5 /* MainQueueDispatchDecorator.swift */; };
 		06C2A0D226F8CCEA00B301E5 /* WeekVarProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2A0D126F8CCEA00B301E5 /* WeekVarProxy.swift */; };
+		06C2A0DA26F8FB2600B301E5 /* GetFruitsArraySpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2A0D926F8FB2600B301E5 /* GetFruitsArraySpy.swift */; };
+		06C2A0DD26F8FDE400B301E5 /* XCTest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2A0DC26F8FDE400B301E5 /* XCTest+Extensions.swift */; };
+		06C2A0E026F8FF3100B301E5 /* MenuButtonSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2A0DF26F8FF3100B301E5 /* MenuButtonSpy.swift */; };
+		06C2A0E226F8FF5900B301E5 /* TableViewSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2A0E126F8FF5900B301E5 /* TableViewSpy.swift */; };
+		06C2A0E426F904EC00B301E5 /* AlertViewSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2A0E326F904EC00B301E5 /* AlertViewSpy.swift */; };
 		06DAC4B426F38A2C00B2E142 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC4B326F38A2C00B2E142 /* AppDelegate.swift */; };
 		06DAC4B626F38A2C00B2E142 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC4B526F38A2C00B2E142 /* SceneDelegate.swift */; };
 		06DAC4B826F38A2C00B2E142 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC4B726F38A2C00B2E142 /* LoginViewController.swift */; };
 		06DAC4BD26F38A3100B2E142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06DAC4BC26F38A3100B2E142 /* Assets.xcassets */; };
 		06DAC4C026F38A3100B2E142 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06DAC4BE26F38A3100B2E142 /* LaunchScreen.storyboard */; };
-		06DAC4CB26F38A3100B2E142 /* FruitStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC4CA26F38A3100B2E142 /* FruitStoreTests.swift */; };
+		06DAC4CB26F38A3100B2E142 /* FruitListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC4CA26F38A3100B2E142 /* FruitListPresenterTests.swift */; };
 		06DAC4D626F38A3100B2E142 /* FruitStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC4D526F38A3100B2E142 /* FruitStoreUITests.swift */; };
 		06DAC4E726F38E3100B2E142 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC4E626F38E3100B2E142 /* LoginView.swift */; };
 		06DAC4EA26F38EA100B2E142 /* CodeViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC4E926F38EA100B2E142 /* CodeViewProtocol.swift */; };
@@ -132,6 +137,11 @@
 		06C2A0CA26F8B18700B301E5 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		06C2A0CE26F8CBB200B301E5 /* MainQueueDispatchDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQueueDispatchDecorator.swift; sourceTree = "<group>"; };
 		06C2A0D126F8CCEA00B301E5 /* WeekVarProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekVarProxy.swift; sourceTree = "<group>"; };
+		06C2A0D926F8FB2600B301E5 /* GetFruitsArraySpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFruitsArraySpy.swift; sourceTree = "<group>"; };
+		06C2A0DC26F8FDE400B301E5 /* XCTest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTest+Extensions.swift"; sourceTree = "<group>"; };
+		06C2A0DF26F8FF3100B301E5 /* MenuButtonSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonSpy.swift; sourceTree = "<group>"; };
+		06C2A0E126F8FF5900B301E5 /* TableViewSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSpy.swift; sourceTree = "<group>"; };
+		06C2A0E326F904EC00B301E5 /* AlertViewSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewSpy.swift; sourceTree = "<group>"; };
 		06DAC4B026F38A2C00B2E142 /* FruitStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06DAC4B326F38A2C00B2E142 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06DAC4B526F38A2C00B2E142 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -139,7 +149,7 @@
 		06DAC4BC26F38A3100B2E142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06DAC4C126F38A3100B2E142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06DAC4C626F38A3100B2E142 /* FruitStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruitStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		06DAC4CA26F38A3100B2E142 /* FruitStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitStoreTests.swift; sourceTree = "<group>"; };
+		06DAC4CA26F38A3100B2E142 /* FruitListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitListPresenterTests.swift; sourceTree = "<group>"; };
 		06DAC4CC26F38A3100B2E142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06DAC4D126F38A3100B2E142 /* FruitStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruitStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06DAC4D526F38A3100B2E142 /* FruitStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitStoreUITests.swift; sourceTree = "<group>"; };
@@ -301,7 +311,9 @@
 		06C2A0D326F8ED0A00B301E5 /* PresenterTests */ = {
 			isa = PBXGroup;
 			children = (
-				06DAC4CA26F38A3100B2E142 /* FruitStoreTests.swift */,
+				06C2A0DE26F8FE6700B301E5 /* Views */,
+				06C2A0D626F8F28400B301E5 /* UseCases */,
+				06DAC4CA26F38A3100B2E142 /* FruitListPresenterTests.swift */,
 			);
 			path = PresenterTests;
 			sourceTree = "<group>";
@@ -324,6 +336,32 @@
 				06A58BB426F853F000D37452 /* ShoppingCartMenuButton.swift */,
 				06A58BB626F853FA00D37452 /* FruitCellView.swift */,
 				06A58BCB26F87A7700D37452 /* ShoppingCartCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		06C2A0D626F8F28400B301E5 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				06C2A0D926F8FB2600B301E5 /* GetFruitsArraySpy.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		06C2A0DB26F8FDCF00B301E5 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				06C2A0DC26F8FDE400B301E5 /* XCTest+Extensions.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		06C2A0DE26F8FE6700B301E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				06C2A0DF26F8FF3100B301E5 /* MenuButtonSpy.swift */,
+				06C2A0E126F8FF5900B301E5 /* TableViewSpy.swift */,
+				06C2A0E326F904EC00B301E5 /* AlertViewSpy.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -367,6 +405,7 @@
 		06DAC4C926F38A3100B2E142 /* FruitStoreTests */ = {
 			isa = PBXGroup;
 			children = (
+				06C2A0DB26F8FDCF00B301E5 /* New Group */,
 				06C2A0D326F8ED0A00B301E5 /* PresenterTests */,
 				06DAC4CC26F38A3100B2E142 /* Info.plist */,
 			);
@@ -922,7 +961,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06DAC4CB26F38A3100B2E142 /* FruitStoreTests.swift in Sources */,
+				06C2A0DA26F8FB2600B301E5 /* GetFruitsArraySpy.swift in Sources */,
+				06DAC4CB26F38A3100B2E142 /* FruitListPresenterTests.swift in Sources */,
+				06C2A0E426F904EC00B301E5 /* AlertViewSpy.swift in Sources */,
+				06C2A0DD26F8FDE400B301E5 /* XCTest+Extensions.swift in Sources */,
+				06C2A0E026F8FF3100B301E5 /* MenuButtonSpy.swift in Sources */,
+				06C2A0E226F8FF5900B301E5 /* TableViewSpy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -40,7 +40,7 @@ extension FruitCellViewModel {
     func toString() -> String {
         return "\(quantity) x \(title) ---------------------------- \(totalPriceString())\n"
     }
-    static func fromFruitListModel(fruitListModel: FruitListModel) -> [FruitCellViewModel] {
+    static func arrayfromFruitListModel(fruitListModel: FruitListModel) -> [FruitCellViewModel] {
         return fruitListModel.fruis.map { fruit in
             return FruitCellViewModel(identifier: fruit.identifier, title: fruit.name, imageURL: fruit.imageURL, price: fruit.price, unit: fruit.unit)
         }
