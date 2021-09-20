@@ -1,5 +1,5 @@
 # Fruit Store, Swift iOS App
-MVP, Snapkit, SDWebImge
+MVP, Snapkit, SDWebImage
 
 Login: 
 Username -> Teste

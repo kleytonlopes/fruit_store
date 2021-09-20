@@ -11,6 +11,8 @@ final class LoginView: UIView {
     // MARK: - Properties
     let margin = 15
     let buttonHeght = 50
+    let heightGrid = 100
+    let spacingGrid: CGFloat = 10.0
     weak var delegate: LoginViewProtocol?
     // MARK: - UI
     lazy var gridContainer: UIStackView = {
@@ -42,19 +44,21 @@ extension LoginView: CodeViewProtocol {
         addSubview(button)
         gridContainer.addArrangedSubview(textFieldUsername)
         gridContainer.addArrangedSubview(textFieldPassword)
+        gridContainer.spacing = spacingGrid
         addSubview(gridContainer)
     }
     func setupConstraints() {
         button.snp.makeConstraints { make in
             make.left.equalToSuperview().offset(margin)
             make.right.equalToSuperview().inset(margin)
-            make.bottom.equalToSuperview().inset(margin * 2)
+            make.bottom.equalToSuperview().inset(margin * 10)
             make.height.equalTo(buttonHeght)
         }
         gridContainer.snp.makeConstraints { make in
             make.left.equalToSuperview().offset(margin)
             make.right.equalToSuperview().inset(margin)
-            make.centerY.equalToSuperview()
+            make.centerY.equalToSuperview().dividedBy(2)
+            make.height.equalTo(heightGrid)
         }
     }
     func setupConfiguration() {
