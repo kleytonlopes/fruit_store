@@ -9,6 +9,7 @@ import UIKit
 
 class ShoppingCartView: UIView {
     // MARK: - Properties
+    let marginView = 15
     var presenter: ShoppingCartPresenterProtocol?
     lazy var tableView: UITableView = UITableView()
 
@@ -28,12 +29,13 @@ extension ShoppingCartView: CodeViewProtocol {
     func setupConstraints() {
         tableView.snp.makeConstraints { make in
             make.top.equalToSuperview()
-            make.bottom.equalToSuperview().inset(2)
-            make.left.equalToSuperview().offset(2)
-            make.right.equalToSuperview().inset(2)
+            make.bottom.equalToSuperview().inset(marginView)
+            make.left.equalToSuperview().offset(marginView)
+            make.right.equalToSuperview().inset(marginView)
         }
     }
     func setupConfiguration() {
+        self.backgroundColor = .white
         tableView.register(ShoppingCartCell.self, forCellReuseIdentifier: ShoppingCartCell.identifier)
         tableView.delegate = self
         tableView.dataSource = self
