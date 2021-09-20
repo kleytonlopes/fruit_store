@@ -9,7 +9,7 @@ import Foundation
 
 class ShoppingCartPresenter: ShoppingCartPresenterProtocol {
     // MARK: - UI Protocols
-    var shoppingCartTableView: ShoppingCartTableView?
+    var shoppingCartTableView: TableView?
     var shoppingCartFruits = [FruitCellViewModel]()
     // MARK: - Properties
     var numberOfItems: Int {
@@ -32,7 +32,7 @@ class ShoppingCartPresenter: ShoppingCartPresenterProtocol {
         return result
     }
     // MARK: - Init
-    init(shoppingCartTableView: ShoppingCartTableView) {
+    init(shoppingCartTableView: TableView) {
         self.shoppingCartTableView = shoppingCartTableView
     }
     // MARK: - Public Methods

@@ -7,5 +7,5 @@
 
 func makeLocalAuthentication(localValidator: LocalLoginValidator) -> Authentication {
     let localAuthentication = LocalAuthentication(loginValidator: localValidator)
-    return localAuthentication
+    return MainQueueDispatchDecorator(localAuthentication)
 }

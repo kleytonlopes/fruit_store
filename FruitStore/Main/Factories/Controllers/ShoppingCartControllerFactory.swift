@@ -9,7 +9,7 @@ import Foundation
 
 func makeShoppingCartController(items: [FruitCellViewModel]) -> ShoppingCartViewController {
     let controller = ShoppingCartViewController(items: items)
-    let presenter = ShoppingCartPresenter(shoppingCartTableView: controller.shoppingCartView)
+    let presenter = ShoppingCartPresenter(shoppingCartTableView: WeakVarProxy(controller.shoppingCartView))
     controller.presenter = presenter
     return controller
 }

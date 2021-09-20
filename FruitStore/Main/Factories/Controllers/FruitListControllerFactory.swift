@@ -9,7 +9,7 @@ import Foundation
 
 func makeFruitListController(getFruitsArray: GetFruitsArray) -> FruitListViewController {
     let controller = FruitListViewController()
-    let presenter = FruiListPresenter(getFruitsArray: getFruitsArray, fruitsTableView: controller.fruitListView, menuButton: controller)
+    let presenter = FruiListPresenter(getFruitsArray: getFruitsArray, fruitsTableView: WeakVarProxy(controller.fruitListView), menuButton: WeakVarProxy(controller))
     controller.presenter = presenter
     return controller
 }

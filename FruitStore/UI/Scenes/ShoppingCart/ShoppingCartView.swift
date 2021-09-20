@@ -64,7 +64,7 @@ extension ShoppingCartView: UITableViewDelegate, UITableViewDataSource {
     }
 }
 // MARK: - ShoppingCartTableView
-extension ShoppingCartView: ShoppingCartTableView {
+extension ShoppingCartView: TableView {
     func reloadData() {
         self.tableView.reloadData()
 

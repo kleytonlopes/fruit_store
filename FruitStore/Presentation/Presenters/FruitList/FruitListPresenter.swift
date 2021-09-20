@@ -11,7 +11,7 @@ class FruiListPresenter: FruiListPresenterProtocol {
     // MARK: - Use Case
     private let getFruitsArray: GetFruitsArray
     // MARK: - UI Protocols
-    var fruitsTableView: FruitsTableView?
+    var fruitsTableView: TableView?
     var shoppingCartMenuButton: ShoppingCartMenuButton?
     // MARK: - Properties
     var allFruits = [FruitCellViewModel]()
@@ -39,7 +39,7 @@ class FruiListPresenter: FruiListPresenterProtocol {
         return quantity
     }
     // MARK: - Init
-    init(getFruitsArray: GetFruitsArray, fruitsTableView: FruitsTableView, menuButton: ShoppingCartMenuButton) {
+    init(getFruitsArray: GetFruitsArray, fruitsTableView: TableView, menuButton: ShoppingCartMenuButton) {
         self.getFruitsArray = getFruitsArray
         self.fruitsTableView = fruitsTableView
         self.shoppingCartMenuButton = menuButton

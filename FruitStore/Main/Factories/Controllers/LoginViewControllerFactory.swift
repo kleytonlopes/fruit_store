@@ -9,7 +9,7 @@ import Foundation
 
 func makeLoginController(authentication: Authentication) -> LoginViewController {
     let controller = LoginViewController()
-    let presenter = LoginPresenter(authentication: authentication, alertView: controller, sign: controller)
+    let presenter = LoginPresenter(authentication: authentication, alertView: WeakVarProxy(controller), sign: WeakVarProxy(controller))
     controller.loginRequest = presenter.login
     return controller
 }

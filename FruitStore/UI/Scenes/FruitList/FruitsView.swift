@@ -71,7 +71,7 @@ extension FruitsView: UISearchResultsUpdating {
     }
 }
 // MARK: - FruitsTableView
-extension FruitsView: FruitsTableView {
+extension FruitsView: TableView {
     func reloadData() {
         self.tableView.reloadData()
     }
