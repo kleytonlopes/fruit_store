@@ -65,23 +65,18 @@ class FruiListPresenter: FruiListPresenterProtocol {
         fruitsTableView?.reloadData()
     }
     func addItemToShoppingCart(item: FruitCellViewModel) {
-        if !shoppingCartFruits.contains(item) {
-            if let indexOf2 = allFruits.firstIndex(of: item) {
-                allFruits[indexOf2].addItem()
-            }
-        } else {
-            if let indexOf2 = allFruits.firstIndex(of: item) {
-                allFruits[indexOf2].addItem()
-            }
+        if let indexOf2 = allFruits.firstIndex(of: item) {
+            allFruits[indexOf2].addItem()
         }
         filterTableViewData(searchText: searchText)
         shoppingCartMenuButton?.setQuantity(value: numberOfSelectedFruits)
     }
     func removeItemFromShoppingCart(item: FruitCellViewModel) {
-        if shoppingCartFruits.contains(item) {
-            if let indexOf2 = allFruits.firstIndex(of: item) {
-                allFruits[indexOf2].subtractItem()
-            }
+        guard shoppingCartFruits.contains(item) else {
+            return
+        }
+        if let indexOf2 = allFruits.firstIndex(of: item) {
+            allFruits[indexOf2].subtractItem()
         }
         filterTableViewData(searchText: searchText)
         shoppingCartMenuButton?.setQuantity(value: numberOfSelectedFruits)
