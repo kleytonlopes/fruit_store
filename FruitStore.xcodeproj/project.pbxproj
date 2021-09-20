@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06A58BB326F853CE00D37452 /* FruitsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A58BB226F853CE00D37452 /* FruitsTableView.swift */; };
+		06A58BB526F853F000D37452 /* ShoppingCartMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A58BB426F853F000D37452 /* ShoppingCartMenuButton.swift */; };
+		06A58BB726F853FA00D37452 /* FruitCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A58BB626F853FA00D37452 /* FruitCellView.swift */; };
+		06A58BB926F8556000D37452 /* FruiListPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A58BB826F8556000D37452 /* FruiListPresenterProtocol.swift */; };
+		06A58BBB26F8586200D37452 /* GetFruitsArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A58BBA26F8586200D37452 /* GetFruitsArray.swift */; };
+		06A58BBD26F85AFB00D37452 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A58BBC26F85AFB00D37452 /* FruitModel.swift */; };
+		06A58BBF26F85E0200D37452 /* LocalGetFruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A58BBE26F85E0200D37452 /* LocalGetFruitData.swift */; };
+		06A58BC126F85E3800D37452 /* LocalDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A58BC026F85E3800D37452 /* LocalDatabase.swift */; };
+		06A58BC326F860C400D37452 /* FakeFruitDatabaseAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A58BC226F860C400D37452 /* FakeFruitDatabaseAdapter.swift */; };
+		06A58BC526F86CCF00D37452 /* FruitListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A58BC426F86CCF00D37452 /* FruitListModel.swift */; };
+		06A58BC826F8710900D37452 /* LocalDatabaseAdapterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A58BC726F8710900D37452 /* LocalDatabaseAdapterFactory.swift */; };
+		06A58BCA26F871B500D37452 /* LocalDatabseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A58BC926F871B500D37452 /* LocalDatabseFactory.swift */; };
+		06A58BCC26F87A7700D37452 /* ShoppingCartCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A58BCB26F87A7700D37452 /* ShoppingCartCellView.swift */; };
+		06A58BCE26F87A9400D37452 /* ShoppingCartTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A58BCD26F87A9400D37452 /* ShoppingCartTableView.swift */; };
+		06A58BD026F87AEB00D37452 /* ShoppingCartPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A58BCF26F87AEB00D37452 /* ShoppingCartPresenterProtocol.swift */; };
+		06A58BD226F8887500D37452 /* ShoppingCartRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A58BD126F8887500D37452 /* ShoppingCartRouter.swift */; };
+		06A58BD526F88D5F00D37452 /* PDFActivityViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A58BD426F88D5E00D37452 /* PDFActivityViewControllerFactory.swift */; };
+		06A58BDC26F892BB00D37452 /* PDFCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A58BDB26F892BB00D37452 /* PDFCreator.swift */; };
+		06A58BDF26F8989D00D37452 /* AsyncImageDownloader .swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A58BDE26F8989D00D37452 /* AsyncImageDownloader .swift */; };
+		06B0D68D26F4C4680012C741 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B0D68C26F4C4680012C741 /* LoginRouter.swift */; };
+		06B0D69126F4C6AB0012C741 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B0D69026F4C6AB0012C741 /* NavigationController.swift */; };
+		06B0D69326F4C8660012C741 /* FruitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B0D69226F4C8660012C741 /* FruitsViewController.swift */; };
+		06B0D69526F4E8110012C741 /* SignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B0D69426F4E8110012C741 /* SignButton.swift */; };
+		06B0D69726F4EA0E0012C741 /* FruitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B0D69626F4EA0E0012C741 /* FruitsView.swift */; };
+		06B0D69D26F555FD0012C741 /* FruitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B0D69C26F555FD0012C741 /* FruitCell.swift */; };
+		06B0D6A026F566A10012C741 /* FruitCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B0D69F26F566A10012C741 /* FruitCellViewModel.swift */; };
+		06B0D6A226F566B00012C741 /* FruitListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B0D6A126F566B00012C741 /* FruitListPresenter.swift */; };
+		06B0D6A426F56F7E0012C741 /* FruitListControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B0D6A326F56F7E0012C741 /* FruitListControllerFactory.swift */; };
 		06DAC4B426F38A2C00B2E142 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC4B326F38A2C00B2E142 /* AppDelegate.swift */; };
 		06DAC4B626F38A2C00B2E142 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC4B526F38A2C00B2E142 /* SceneDelegate.swift */; };
 		06DAC4B826F38A2C00B2E142 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC4B726F38A2C00B2E142 /* LoginViewController.swift */; };
@@ -24,6 +52,34 @@
 		06DAC50226F3C41500B2E142 /* Model+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC50126F3C41500B2E142 /* Model+Extensions.swift */; };
 		06DAC50726F3C59D00B2E142 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC50626F3C59D00B2E142 /* AccountModel.swift */; };
 		06DAC50A26F3C63300B2E142 /* DomainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC50926F3C63300B2E142 /* DomainError.swift */; };
+		06DAC51126F3CC5E00B2E142 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC51026F3CC5E00B2E142 /* Data+Extensions.swift */; };
+		06DAC51526F3CDFE00B2E142 /* LocalAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC51426F3CDFE00B2E142 /* LocalAuthentication.swift */; };
+		06DAC51826F3CFD200B2E142 /* LocalLoginValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC51726F3CFD200B2E142 /* LocalLoginValidator.swift */; };
+		06DAC51A26F3D00F00B2E142 /* LocalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC51926F3D00F00B2E142 /* LocalError.swift */; };
+		06DAC51D26F3D3ED00B2E142 /* FakeLoginValidatorAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC51C26F3D3ED00B2E142 /* FakeLoginValidatorAdapter.swift */; };
+		06DAC52926F400AE00B2E142 /* LocalLoginValidatorAdapterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC52826F400AE00B2E142 /* LocalLoginValidatorAdapterFactory.swift */; };
+		06DAC52C26F402DF00B2E142 /* LoginViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC52B26F402DF00B2E142 /* LoginViewControllerFactory.swift */; };
+		06DAC53026F407B100B2E142 /* LocalAuthenticationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC52F26F407B100B2E142 /* LocalAuthenticationFactory.swift */; };
+		06DAC53626F409C300B2E142 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC53526F409C300B2E142 /* LoginPresenter.swift */; };
+		06DAC53826F40A0A00B2E142 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC53726F40A0A00B2E142 /* LoginRequest.swift */; };
+		06DAC53B26F4139400B2E142 /* UIAlertController+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC53A26F4139400B2E142 /* UIAlertController+extensions.swift */; };
+		06DAC53D26F4164A00B2E142 /* LoginViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC53C26F4164A00B2E142 /* LoginViewProtocol.swift */; };
+		06DAC54026F41B0E00B2E142 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC53F26F41B0E00B2E142 /* AlertView.swift */; };
+		06DDC42A26F65CA300D1C2DF /* FruitsSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDC42926F65CA300D1C2DF /* FruitsSearchController.swift */; };
+		06DDC42E26F6A35D00D1C2DF /* FruitsViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDC42D26F6A35D00D1C2DF /* FruitsViewRouter.swift */; };
+		06DDC43126F6A46800D1C2DF /* ShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDC43026F6A46800D1C2DF /* ShoppingCartViewController.swift */; };
+		06DDC43426F6AB0600D1C2DF /* ShoppingCartControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDC43326F6AB0600D1C2DF /* ShoppingCartControllerFactory.swift */; };
+		06DDC43626F6BE5F00D1C2DF /* FruitsViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDC43526F6BE5F00D1C2DF /* FruitsViewProtocol.swift */; };
+		06DDC43826F6C08000D1C2DF /* ShoppingCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDC43726F6C08000D1C2DF /* ShoppingCartView.swift */; };
+		06DDC43A26F6C09F00D1C2DF /* ShoppingCartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDC43926F6C09F00D1C2DF /* ShoppingCartCell.swift */; };
+		06DDC43F26F6C4C300D1C2DF /* ShoppingCartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDC43E26F6C4C300D1C2DF /* ShoppingCartPresenter.swift */; };
+		06DDC44826F6F1B600D1C2DF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06DDC44A26F6F1B600D1C2DF /* Localizable.strings */; };
+		06DDC44E26F6F3A700D1C2DF /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDC44D26F6F3A700D1C2DF /* String+Extensions.swift */; };
+		06DDC45326F7096D00D1C2DF /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 06DDC45226F7096D00D1C2DF /* SDWebImage */; };
+		06DDC45526F7865500D1C2DF /* ShoppingCartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDC45426F7865500D1C2DF /* ShoppingCartButton.swift */; };
+		06DDC45826F7AB8300D1C2DF /* FooterShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDC45726F7AB8300D1C2DF /* FooterShoppingCart.swift */; };
+		06DDC45A26F7B84C00D1C2DF /* MyPDFCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DDC45926F7B84C00D1C2DF /* MyPDFCreator.swift */; };
+		06DDC45F26F806D500D1C2DF /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 06DDC45E26F806D500D1C2DF /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,12 +100,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06A58BB226F853CE00D37452 /* FruitsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsTableView.swift; sourceTree = "<group>"; };
+		06A58BB426F853F000D37452 /* ShoppingCartMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartMenuButton.swift; sourceTree = "<group>"; };
+		06A58BB626F853FA00D37452 /* FruitCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCellView.swift; sourceTree = "<group>"; };
+		06A58BB826F8556000D37452 /* FruiListPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruiListPresenterProtocol.swift; sourceTree = "<group>"; };
+		06A58BBA26F8586200D37452 /* GetFruitsArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFruitsArray.swift; sourceTree = "<group>"; };
+		06A58BBC26F85AFB00D37452 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
+		06A58BBE26F85E0200D37452 /* LocalGetFruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalGetFruitData.swift; sourceTree = "<group>"; };
+		06A58BC026F85E3800D37452 /* LocalDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDatabase.swift; sourceTree = "<group>"; };
+		06A58BC226F860C400D37452 /* FakeFruitDatabaseAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeFruitDatabaseAdapter.swift; sourceTree = "<group>"; };
+		06A58BC426F86CCF00D37452 /* FruitListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitListModel.swift; sourceTree = "<group>"; };
+		06A58BC726F8710900D37452 /* LocalDatabaseAdapterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDatabaseAdapterFactory.swift; sourceTree = "<group>"; };
+		06A58BC926F871B500D37452 /* LocalDatabseFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDatabseFactory.swift; sourceTree = "<group>"; };
+		06A58BCB26F87A7700D37452 /* ShoppingCartCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartCellView.swift; sourceTree = "<group>"; };
+		06A58BCD26F87A9400D37452 /* ShoppingCartTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartTableView.swift; sourceTree = "<group>"; };
+		06A58BCF26F87AEB00D37452 /* ShoppingCartPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartPresenterProtocol.swift; sourceTree = "<group>"; };
+		06A58BD126F8887500D37452 /* ShoppingCartRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartRouter.swift; sourceTree = "<group>"; };
+		06A58BD426F88D5E00D37452 /* PDFActivityViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFActivityViewControllerFactory.swift; sourceTree = "<group>"; };
+		06A58BDB26F892BB00D37452 /* PDFCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFCreator.swift; sourceTree = "<group>"; };
+		06A58BDE26F8989D00D37452 /* AsyncImageDownloader .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AsyncImageDownloader .swift"; sourceTree = "<group>"; };
+		06B0D68C26F4C4680012C741 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		06B0D69026F4C6AB0012C741 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		06B0D69226F4C8660012C741 /* FruitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsViewController.swift; sourceTree = "<group>"; };
+		06B0D69426F4E8110012C741 /* SignButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignButton.swift; sourceTree = "<group>"; };
+		06B0D69626F4EA0E0012C741 /* FruitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsView.swift; sourceTree = "<group>"; };
+		06B0D69C26F555FD0012C741 /* FruitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCell.swift; sourceTree = "<group>"; };
+		06B0D69F26F566A10012C741 /* FruitCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCellViewModel.swift; sourceTree = "<group>"; };
+		06B0D6A126F566B00012C741 /* FruitListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitListPresenter.swift; sourceTree = "<group>"; };
+		06B0D6A326F56F7E0012C741 /* FruitListControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitListControllerFactory.swift; sourceTree = "<group>"; };
 		06DAC4B026F38A2C00B2E142 /* FruitStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06DAC4B326F38A2C00B2E142 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06DAC4B526F38A2C00B2E142 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		06DAC4B726F38A2C00B2E142 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		06DAC4BC26F38A3100B2E142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		06DAC4BF26F38A3100B2E142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06DAC4C126F38A3100B2E142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06DAC4C626F38A3100B2E142 /* FruitStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruitStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06DAC4CA26F38A3100B2E142 /* FruitStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitStoreTests.swift; sourceTree = "<group>"; };
@@ -66,6 +149,35 @@
 		06DAC50126F3C41500B2E142 /* Model+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model+Extensions.swift"; sourceTree = "<group>"; };
 		06DAC50626F3C59D00B2E142 /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
 		06DAC50926F3C63300B2E142 /* DomainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainError.swift; sourceTree = "<group>"; };
+		06DAC51026F3CC5E00B2E142 /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
+		06DAC51426F3CDFE00B2E142 /* LocalAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthentication.swift; sourceTree = "<group>"; };
+		06DAC51726F3CFD200B2E142 /* LocalLoginValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalLoginValidator.swift; sourceTree = "<group>"; };
+		06DAC51926F3D00F00B2E142 /* LocalError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalError.swift; sourceTree = "<group>"; };
+		06DAC51C26F3D3ED00B2E142 /* FakeLoginValidatorAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeLoginValidatorAdapter.swift; sourceTree = "<group>"; };
+		06DAC52826F400AE00B2E142 /* LocalLoginValidatorAdapterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalLoginValidatorAdapterFactory.swift; sourceTree = "<group>"; };
+		06DAC52B26F402DF00B2E142 /* LoginViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerFactory.swift; sourceTree = "<group>"; };
+		06DAC52F26F407B100B2E142 /* LocalAuthenticationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthenticationFactory.swift; sourceTree = "<group>"; };
+		06DAC53526F409C300B2E142 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		06DAC53726F40A0A00B2E142 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		06DAC53A26F4139400B2E142 /* UIAlertController+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+extensions.swift"; sourceTree = "<group>"; };
+		06DAC53C26F4164A00B2E142 /* LoginViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewProtocol.swift; sourceTree = "<group>"; };
+		06DAC53F26F41B0E00B2E142 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		06DDC42926F65CA300D1C2DF /* FruitsSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsSearchController.swift; sourceTree = "<group>"; };
+		06DDC42D26F6A35D00D1C2DF /* FruitsViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsViewRouter.swift; sourceTree = "<group>"; };
+		06DDC43026F6A46800D1C2DF /* ShoppingCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewController.swift; sourceTree = "<group>"; };
+		06DDC43326F6AB0600D1C2DF /* ShoppingCartControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartControllerFactory.swift; sourceTree = "<group>"; };
+		06DDC43526F6BE5F00D1C2DF /* FruitsViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsViewProtocol.swift; sourceTree = "<group>"; };
+		06DDC43726F6C08000D1C2DF /* ShoppingCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartView.swift; sourceTree = "<group>"; };
+		06DDC43926F6C09F00D1C2DF /* ShoppingCartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartCell.swift; sourceTree = "<group>"; };
+		06DDC43E26F6C4C300D1C2DF /* ShoppingCartPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartPresenter.swift; sourceTree = "<group>"; };
+		06DDC44B26F6F1D400D1C2DF /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		06DDC44D26F6F3A700D1C2DF /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		06DDC44F26F6F5EE00D1C2DF /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		06DDC45026F6F73900D1C2DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		06DDC45426F7865500D1C2DF /* ShoppingCartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartButton.swift; sourceTree = "<group>"; };
+		06DDC45726F7AB8300D1C2DF /* FooterShoppingCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterShoppingCart.swift; sourceTree = "<group>"; };
+		06DDC45926F7B84C00D1C2DF /* MyPDFCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPDFCreator.swift; sourceTree = "<group>"; };
+		06DDC45E26F806D500D1C2DF /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +185,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06DDC45326F7096D00D1C2DF /* SDWebImage in Frameworks */,
 				06DAC4EE26F391AF00B2E142 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +207,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06A58BD626F88E9900D37452 /* LocalFruitDatabaseAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				06A58BC226F860C400D37452 /* FakeFruitDatabaseAdapter.swift */,
+			);
+			path = LocalFruitDatabaseAdapter;
+			sourceTree = "<group>";
+		};
+		06A58BDA26F8929600D37452 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				06A58BDD26F892BF00D37452 /* PDF */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		06A58BDD26F892BF00D37452 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				06A58BDB26F892BB00D37452 /* PDFCreator.swift */,
+				06DDC45926F7B84C00D1C2DF /* MyPDFCreator.swift */,
+			);
+			path = PDF;
+			sourceTree = "<group>";
+		};
+		06B0D68E26F4C5210012C741 /* FruitList */ = {
+			isa = PBXGroup;
+			children = (
+				06B0D69626F4EA0E0012C741 /* FruitsView.swift */,
+				06DDC43526F6BE5F00D1C2DF /* FruitsViewProtocol.swift */,
+				06B0D69226F4C8660012C741 /* FruitsViewController.swift */,
+				06DDC42D26F6A35D00D1C2DF /* FruitsViewRouter.swift */,
+			);
+			path = FruitList;
+			sourceTree = "<group>";
+		};
+		06B0D68F26F4C69B0012C741 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				06B0D69026F4C6AB0012C741 /* NavigationController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		06B0D69B26F5551F0012C741 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				06B0D69C26F555FD0012C741 /* FruitCell.swift */,
+				06DDC43926F6C09F00D1C2DF /* ShoppingCartCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		06B0D69E26F5667C0012C741 /* FruitList */ = {
+			isa = PBXGroup;
+			children = (
+				06B0D69F26F566A10012C741 /* FruitCellViewModel.swift */,
+				06B0D6A126F566B00012C741 /* FruitListPresenter.swift */,
+			);
+			path = FruitList;
+			sourceTree = "<group>";
+		};
 		06DAC4A726F38A2C00B2E142 = {
 			isa = PBXGroup;
 			children = (
@@ -117,13 +292,15 @@
 		06DAC4B226F38A2C00B2E142 /* FruitStore */ = {
 			isa = PBXGroup;
 			children = (
-				06DAC4F626F3C1C600B2E142 /* Domain */,
-				06DAC4E326F38D8C00B2E142 /* UI */,
-				06DAC4B326F38A2C00B2E142 /* AppDelegate.swift */,
-				06DAC4B526F38A2C00B2E142 /* SceneDelegate.swift */,
-				06DAC4BC26F38A3100B2E142 /* Assets.xcassets */,
-				06DAC4BE26F38A3100B2E142 /* LaunchScreen.storyboard */,
+				06DDC45E26F806D500D1C2DF /* .swiftlint.yml */,
+				06DDC44A26F6F1B600D1C2DF /* Localizable.strings */,
 				06DAC4C126F38A3100B2E142 /* Info.plist */,
+				06DAC4F626F3C1C600B2E142 /* Domain */,
+				06DAC50D26F3CC0E00B2E142 /* Data */,
+				06DAC51B26F3D3D900B2E142 /* Infra */,
+				06DAC53126F408E800B2E142 /* Presentation */,
+				06DAC4E326F38D8C00B2E142 /* UI */,
+				06DAC52626F4001E00B2E142 /* Main */,
 			);
 			path = FruitStore;
 			sourceTree = "<group>";
@@ -149,8 +326,8 @@
 		06DAC4E326F38D8C00B2E142 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				06DAC4FA26F3C2CB00B2E142 /* Helpers */,
 				06DAC4EF26F3A32F00B2E142 /* Components */,
-				06DAC4E826F38E8100B2E142 /* CodeView */,
 				06DAC4E526F38E1300B2E142 /* Scenes */,
 			);
 			path = UI;
@@ -159,25 +336,20 @@
 		06DAC4E526F38E1300B2E142 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				06DAC4FA26F3C2CB00B2E142 /* Helpers */,
 				06DAC4EB26F38F0B00B2E142 /* Login */,
+				06B0D68E26F4C5210012C741 /* FruitList */,
+				06DDC42F26F6A43C00D1C2DF /* ShoppingCart */,
 			);
 			path = Scenes;
-			sourceTree = "<group>";
-		};
-		06DAC4E826F38E8100B2E142 /* CodeView */ = {
-			isa = PBXGroup;
-			children = (
-				06DAC4E926F38EA100B2E142 /* CodeViewProtocol.swift */,
-			);
-			path = CodeView;
 			sourceTree = "<group>";
 		};
 		06DAC4EB26F38F0B00B2E142 /* Login */ = {
 			isa = PBXGroup;
 			children = (
 				06DAC4E626F38E3100B2E142 /* LoginView.swift */,
+				06DAC53C26F4164A00B2E142 /* LoginViewProtocol.swift */,
 				06DAC4B726F38A2C00B2E142 /* LoginViewController.swift */,
+				06B0D68C26F4C4680012C741 /* LoginRouter.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -185,6 +357,11 @@
 		06DAC4EF26F3A32F00B2E142 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				06DDC45626F7AB6C00D1C2DF /* Footers */,
+				06DDC42626F658B900D1C2DF /* SearchController */,
+				06B0D69B26F5551F0012C741 /* Cells */,
+				06B0D68F26F4C69B0012C741 /* Navigation */,
+				06DAC53926F4136B00B2E142 /* Alerts */,
 				06DAC4F926F3C24200B2E142 /* Buttons */,
 				06DAC4F826F3C23900B2E142 /* TextFields */,
 			);
@@ -214,6 +391,7 @@
 			isa = PBXGroup;
 			children = (
 				06DAC4F426F3A99E00B2E142 /* FinishButton.swift */,
+				06DDC45426F7865500D1C2DF /* ShoppingCartButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -221,7 +399,9 @@
 		06DAC4FA26F3C2CB00B2E142 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				06DDC44D26F6F3A700D1C2DF /* String+Extensions.swift */,
 				06DAC4FB26F3C2ED00B2E142 /* UIViewController+Extensions.swift */,
+				06DAC4E926F38EA100B2E142 /* CodeViewProtocol.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -230,6 +410,8 @@
 			isa = PBXGroup;
 			children = (
 				06DAC4FE26F3C3D000B2E142 /* Authentication.swift */,
+				06A58BBA26F8586200D37452 /* GetFruitsArray.swift */,
+				06A58BDE26F8989D00D37452 /* AsyncImageDownloader .swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -246,6 +428,8 @@
 			isa = PBXGroup;
 			children = (
 				06DAC50626F3C59D00B2E142 /* AccountModel.swift */,
+				06A58BBC26F85AFB00D37452 /* FruitModel.swift */,
+				06A58BC426F86CCF00D37452 /* FruitListModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -258,6 +442,198 @@
 			path = Errors;
 			sourceTree = "<group>";
 		};
+		06DAC50D26F3CC0E00B2E142 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				06DAC51326F3CDD900B2E142 /* UseCases */,
+				06DAC51626F3CFA000B2E142 /* LoginValidator */,
+				06DAC50E26F3CC1400B2E142 /* Helpers */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		06DAC50E26F3CC1400B2E142 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				06DAC51026F3CC5E00B2E142 /* Data+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		06DAC51326F3CDD900B2E142 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				06DAC51426F3CDFE00B2E142 /* LocalAuthentication.swift */,
+				06A58BBE26F85E0200D37452 /* LocalGetFruitData.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		06DAC51626F3CFA000B2E142 /* LoginValidator */ = {
+			isa = PBXGroup;
+			children = (
+				06DAC51726F3CFD200B2E142 /* LocalLoginValidator.swift */,
+				06A58BC026F85E3800D37452 /* LocalDatabase.swift */,
+				06DAC51926F3D00F00B2E142 /* LocalError.swift */,
+			);
+			path = LoginValidator;
+			sourceTree = "<group>";
+		};
+		06DAC51B26F3D3D900B2E142 /* Infra */ = {
+			isa = PBXGroup;
+			children = (
+				06A58BD626F88E9900D37452 /* LocalFruitDatabaseAdapter */,
+				06DAC51E26F3D3FE00B2E142 /* LocalLoginValidatorAdapter */,
+			);
+			path = Infra;
+			sourceTree = "<group>";
+		};
+		06DAC51E26F3D3FE00B2E142 /* LocalLoginValidatorAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				06DAC51C26F3D3ED00B2E142 /* FakeLoginValidatorAdapter.swift */,
+			);
+			path = LocalLoginValidatorAdapter;
+			sourceTree = "<group>";
+		};
+		06DAC52626F4001E00B2E142 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				06A58BDA26F8929600D37452 /* Helpers */,
+				06DAC52726F4003D00B2E142 /* Factories */,
+				06DAC4BE26F38A3100B2E142 /* LaunchScreen.storyboard */,
+				06DAC4BC26F38A3100B2E142 /* Assets.xcassets */,
+				06DAC4B526F38A2C00B2E142 /* SceneDelegate.swift */,
+				06DAC4B326F38A2C00B2E142 /* AppDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		06DAC52726F4003D00B2E142 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				06DAC52E26F403E600B2E142 /* Data */,
+				06DAC52A26F402CB00B2E142 /* Controllers */,
+				06DAC52D26F403D500B2E142 /* Infra */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		06DAC52A26F402CB00B2E142 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				06DAC52B26F402DF00B2E142 /* LoginViewControllerFactory.swift */,
+				06B0D6A326F56F7E0012C741 /* FruitListControllerFactory.swift */,
+				06DDC43326F6AB0600D1C2DF /* ShoppingCartControllerFactory.swift */,
+				06A58BD426F88D5E00D37452 /* PDFActivityViewControllerFactory.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		06DAC52D26F403D500B2E142 /* Infra */ = {
+			isa = PBXGroup;
+			children = (
+				06DAC52826F400AE00B2E142 /* LocalLoginValidatorAdapterFactory.swift */,
+				06A58BC726F8710900D37452 /* LocalDatabaseAdapterFactory.swift */,
+			);
+			path = Infra;
+			sourceTree = "<group>";
+		};
+		06DAC52E26F403E600B2E142 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				06DAC52F26F407B100B2E142 /* LocalAuthenticationFactory.swift */,
+				06A58BC926F871B500D37452 /* LocalDatabseFactory.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		06DAC53126F408E800B2E142 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				06DAC53226F4090700B2E142 /* Presenters */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		06DAC53226F4090700B2E142 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				06DAC53E26F41AF800B2E142 /* Protocols */,
+				06DAC53326F4091400B2E142 /* Login */,
+				06B0D69E26F5667C0012C741 /* FruitList */,
+				06DDC43D26F6C48800D1C2DF /* ShoppingCart */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		06DAC53326F4091400B2E142 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				06DAC53726F40A0A00B2E142 /* LoginRequest.swift */,
+				06DAC53526F409C300B2E142 /* LoginPresenter.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		06DAC53926F4136B00B2E142 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				06DAC53A26F4139400B2E142 /* UIAlertController+extensions.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		06DAC53E26F41AF800B2E142 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				06A58BB826F8556000D37452 /* FruiListPresenterProtocol.swift */,
+				06A58BCF26F87AEB00D37452 /* ShoppingCartPresenterProtocol.swift */,
+				06DAC53F26F41B0E00B2E142 /* AlertView.swift */,
+				06B0D69426F4E8110012C741 /* SignButton.swift */,
+				06A58BB226F853CE00D37452 /* FruitsTableView.swift */,
+				06A58BB426F853F000D37452 /* ShoppingCartMenuButton.swift */,
+				06A58BB626F853FA00D37452 /* FruitCellView.swift */,
+				06A58BCB26F87A7700D37452 /* ShoppingCartCellView.swift */,
+				06A58BCD26F87A9400D37452 /* ShoppingCartTableView.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		06DDC42626F658B900D1C2DF /* SearchController */ = {
+			isa = PBXGroup;
+			children = (
+				06DDC42926F65CA300D1C2DF /* FruitsSearchController.swift */,
+			);
+			path = SearchController;
+			sourceTree = "<group>";
+		};
+		06DDC42F26F6A43C00D1C2DF /* ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				06DDC43726F6C08000D1C2DF /* ShoppingCartView.swift */,
+				06DDC43026F6A46800D1C2DF /* ShoppingCartViewController.swift */,
+				06A58BD126F8887500D37452 /* ShoppingCartRouter.swift */,
+			);
+			path = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		06DDC43D26F6C48800D1C2DF /* ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				06DDC43E26F6C4C300D1C2DF /* ShoppingCartPresenter.swift */,
+			);
+			path = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		06DDC45626F7AB6C00D1C2DF /* Footers */ = {
+			isa = PBXGroup;
+			children = (
+				06DDC45726F7AB8300D1C2DF /* FooterShoppingCart.swift */,
+			);
+			path = Footers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -268,6 +644,7 @@
 				06DAC4AC26F38A2C00B2E142 /* Sources */,
 				06DAC4AD26F38A2C00B2E142 /* Frameworks */,
 				06DAC4AE26F38A2C00B2E142 /* Resources */,
+				06DDC45D26F8060D00D1C2DF /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -276,6 +653,7 @@
 			name = FruitStore;
 			packageProductDependencies = (
 				06DAC4ED26F391AF00B2E142 /* SnapKit */,
+				06DDC45226F7096D00D1C2DF /* SDWebImage */,
 			);
 			productName = FruitStore;
 			productReference = 06DAC4B026F38A2C00B2E142 /* FruitStore.app */;
@@ -345,11 +723,12 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				"pt-BR",
 			);
 			mainGroup = 06DAC4A726F38A2C00B2E142;
 			packageReferences = (
 				06DAC4EC26F391AF00B2E142 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				06DDC45126F7096D00D1C2DF /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = 06DAC4B126F38A2C00B2E142 /* Products */;
 			projectDirPath = "";
@@ -367,7 +746,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06DDC45F26F806D500D1C2DF /* .swiftlint.yml in Resources */,
 				06DAC4C026F38A3100B2E142 /* LaunchScreen.storyboard in Resources */,
+				06DDC44826F6F1B600D1C2DF /* Localizable.strings in Resources */,
 				06DAC4BD26F38A3100B2E142 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,23 +769,96 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06DDC45D26F8060D00D1C2DF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		06DAC4AC26F38A2C00B2E142 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06DAC51D26F3D3ED00B2E142 /* FakeLoginValidatorAdapter.swift in Sources */,
+				06A58BCA26F871B500D37452 /* LocalDatabseFactory.swift in Sources */,
+				06B0D69D26F555FD0012C741 /* FruitCell.swift in Sources */,
+				06DAC51A26F3D00F00B2E142 /* LocalError.swift in Sources */,
 				06DAC4EA26F38EA100B2E142 /* CodeViewProtocol.swift in Sources */,
+				06DAC53026F407B100B2E142 /* LocalAuthenticationFactory.swift in Sources */,
+				06A58BD226F8887500D37452 /* ShoppingCartRouter.swift in Sources */,
+				06A58BC326F860C400D37452 /* FakeFruitDatabaseAdapter.swift in Sources */,
+				06B0D6A026F566A10012C741 /* FruitCellViewModel.swift in Sources */,
+				06DDC43426F6AB0600D1C2DF /* ShoppingCartControllerFactory.swift in Sources */,
+				06A58BC826F8710900D37452 /* LocalDatabaseAdapterFactory.swift in Sources */,
+				06DAC51826F3CFD200B2E142 /* LocalLoginValidator.swift in Sources */,
+				06DDC42A26F65CA300D1C2DF /* FruitsSearchController.swift in Sources */,
+				06DAC52C26F402DF00B2E142 /* LoginViewControllerFactory.swift in Sources */,
+				06DAC51526F3CDFE00B2E142 /* LocalAuthentication.swift in Sources */,
+				06A58BCC26F87A7700D37452 /* ShoppingCartCellView.swift in Sources */,
+				06B0D6A226F566B00012C741 /* FruitListPresenter.swift in Sources */,
+				06DAC52926F400AE00B2E142 /* LocalLoginValidatorAdapterFactory.swift in Sources */,
 				06DAC4B826F38A2C00B2E142 /* LoginViewController.swift in Sources */,
+				06DDC43826F6C08000D1C2DF /* ShoppingCartView.swift in Sources */,
+				06DAC53626F409C300B2E142 /* LoginPresenter.swift in Sources */,
+				06A58BDC26F892BB00D37452 /* PDFCreator.swift in Sources */,
 				06DAC4B426F38A2C00B2E142 /* AppDelegate.swift in Sources */,
 				06DAC50226F3C41500B2E142 /* Model+Extensions.swift in Sources */,
 				06DAC4E726F38E3100B2E142 /* LoginView.swift in Sources */,
+				06B0D69126F4C6AB0012C741 /* NavigationController.swift in Sources */,
+				06A58BB326F853CE00D37452 /* FruitsTableView.swift in Sources */,
 				06DAC4FC26F3C2ED00B2E142 /* UIViewController+Extensions.swift in Sources */,
+				06A58BBD26F85AFB00D37452 /* FruitModel.swift in Sources */,
+				06A58BC526F86CCF00D37452 /* FruitListModel.swift in Sources */,
+				06DDC45526F7865500D1C2DF /* ShoppingCartButton.swift in Sources */,
+				06DAC54026F41B0E00B2E142 /* AlertView.swift in Sources */,
+				06B0D69726F4EA0E0012C741 /* FruitsView.swift in Sources */,
+				06A58BBB26F8586200D37452 /* GetFruitsArray.swift in Sources */,
 				06DAC4F126F3A96200B2E142 /* LoginTextField.swift in Sources */,
+				06A58BBF26F85E0200D37452 /* LocalGetFruitData.swift in Sources */,
+				06DDC44E26F6F3A700D1C2DF /* String+Extensions.swift in Sources */,
+				06A58BD026F87AEB00D37452 /* ShoppingCartPresenterProtocol.swift in Sources */,
+				06DAC51126F3CC5E00B2E142 /* Data+Extensions.swift in Sources */,
+				06DAC53D26F4164A00B2E142 /* LoginViewProtocol.swift in Sources */,
 				06DAC4F526F3A99E00B2E142 /* FinishButton.swift in Sources */,
 				06DAC50726F3C59D00B2E142 /* AccountModel.swift in Sources */,
+				06DDC45826F7AB8300D1C2DF /* FooterShoppingCart.swift in Sources */,
+				06A58BDF26F8989D00D37452 /* AsyncImageDownloader .swift in Sources */,
+				06DDC43A26F6C09F00D1C2DF /* ShoppingCartCell.swift in Sources */,
+				06A58BC126F85E3800D37452 /* LocalDatabase.swift in Sources */,
+				06B0D69326F4C8660012C741 /* FruitsViewController.swift in Sources */,
+				06A58BB726F853FA00D37452 /* FruitCellView.swift in Sources */,
 				06DAC4B626F38A2C00B2E142 /* SceneDelegate.swift in Sources */,
 				06DAC50A26F3C63300B2E142 /* DomainError.swift in Sources */,
+				06A58BB526F853F000D37452 /* ShoppingCartMenuButton.swift in Sources */,
+				06DDC45A26F7B84C00D1C2DF /* MyPDFCreator.swift in Sources */,
+				06B0D6A426F56F7E0012C741 /* FruitListControllerFactory.swift in Sources */,
+				06DDC43126F6A46800D1C2DF /* ShoppingCartViewController.swift in Sources */,
+				06DDC42E26F6A35D00D1C2DF /* FruitsViewRouter.swift in Sources */,
+				06A58BB926F8556000D37452 /* FruiListPresenterProtocol.swift in Sources */,
+				06DDC43F26F6C4C300D1C2DF /* ShoppingCartPresenter.swift in Sources */,
 				06DAC4FF26F3C3D000B2E142 /* Authentication.swift in Sources */,
+				06DAC53826F40A0A00B2E142 /* LoginRequest.swift in Sources */,
+				06A58BCE26F87A9400D37452 /* ShoppingCartTableView.swift in Sources */,
+				06B0D69526F4E8110012C741 /* SignButton.swift in Sources */,
+				06DDC43626F6BE5F00D1C2DF /* FruitsViewProtocol.swift in Sources */,
+				06A58BD526F88D5F00D37452 /* PDFActivityViewControllerFactory.swift in Sources */,
+				06B0D68D26F4C4680012C741 /* LoginRouter.swift in Sources */,
+				06DAC53B26F4139400B2E142 /* UIAlertController+extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,9 +897,18 @@
 		06DAC4BE26F38A3100B2E142 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				06DAC4BF26F38A3100B2E142 /* Base */,
+				06DDC44F26F6F5EE00D1C2DF /* pt-BR */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		06DDC44A26F6F1B600D1C2DF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06DDC44B26F6F1D400D1C2DF /* pt-BR */,
+				06DDC45026F6F73900D1C2DF /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -455,6 +918,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -516,6 +980,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -739,6 +1204,14 @@
 				minimumVersion = 5.0.1;
 			};
 		};
+		06DDC45126F7096D00D1C2DF /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.11.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -746,6 +1219,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 06DAC4EC26F391AF00B2E142 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		06DDC45226F7096D00D1C2DF /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06DDC45126F7096D00D1C2DF /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

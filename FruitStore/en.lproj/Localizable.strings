@@ -1,0 +1,13 @@
+"login-view-title" = "Fruit Store";
+"login-button-title" = "Login";
+"login-placeholder-username" = "enter login";
+"login-placeholder-password" = "enter password";
+"login-alert-view-error-title" = "Error";
+"login-alert-view-error-message" = "Unauthorized User!";
+
+"fruit-list-view-title" = "Fruits";
+"searchbar-placeholder" = "Search by name";
+
+"shopping-cart-view-title" = "Shopping Cart";
+"shopping-cart-view-total" = "Total: R$ %.02f";
+

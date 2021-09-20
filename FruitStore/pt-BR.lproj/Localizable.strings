@@ -1,0 +1,12 @@
+"login-view-title" = "Loja de Frutas";
+"login-button-title" = "Login";
+"login-placeholder-username" = "entre o login";
+"login-placeholder-password" = "entre com a senha";
+"login-alert-view-error-title" = "Usuário não autorizado!";
+"login-alert-view-error-message" = "Usuário não autorizado!";
+
+"fruit-list-view-title" = "Frutas";
+"searchbar-placeholder" = "Buscar por nome";
+
+"shopping-cart-view-title" = "Carrinho de Compras";
+"shopping-cart-view-total" = "Total: R$ %.02f";

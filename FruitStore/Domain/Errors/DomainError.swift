@@ -7,6 +7,7 @@
 
 import Foundation
 
-public enum DomainError: Error {
-    case loginInvalid
+enum DomainError: Error {
+    case unauthorized
+    case unexpected
 }
