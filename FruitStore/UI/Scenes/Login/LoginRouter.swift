@@ -25,7 +25,7 @@ class LoginRouterImplementation: LoginRouter {
     public func goToFruitList() {
         DispatchQueue.main.async {
             let fruitsViewController = self.fruitListFactory()
-            let fruitsViewRouter = FruitsViewRouterImplementation(nav: self.nav, shoppingCartFactory: self.shoppingCartFactory)
+            let fruitsViewRouter = FruitListViewRouterImplementation(nav: self.nav, shoppingCartFactory: self.shoppingCartFactory)
             fruitsViewController.goToNextView = fruitsViewRouter.goToShoppingCart
             self.nav.setRootViewController(fruitsViewController)
         }

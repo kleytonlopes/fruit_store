@@ -1,8 +1,8 @@
 # Fruit Store, Swift iOS App
 
 Architecture: MVP ( Clean with layers Domain, Data and Infra )
-Frameworks: Snapkit, SDWebImage
-Characteristics: Swift 5, UIkit, PDFKit, CodeView, 1 Presentation Unit Test. 
+Frameworks: Snapkit, SDWebImage, Lint
+Characteristics: Swift 5, UIkit, PDFKit, CodeView, 1 Presentation Unit Test
 
 **Valid Login:**
 ***Username***: Teste 

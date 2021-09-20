@@ -8,7 +8,7 @@
 import UIKit
 
 class FruitListViewController: UIViewController {
-    let fruitListView = FruitsView()
+    let fruitListView = FruitListView()
     lazy var shoppingCartButton = ShoppingCartButton()
 
     var presenter: FruiListPresenterProtocol?
