@@ -17,7 +17,7 @@ class FruiListPresenter: FruiListPresenterProtocol {
     var allFruits = [FruitCellViewModel]()
     var filteredFruits: [FruitCellViewModel] {
         let filteredFruits = searchText.isEmpty ? allFruits : allFruits.filter({(data: FruitCellViewModel) -> Bool in
-            return data.title.range(of: searchText, options: .caseInsensitive) != nil
+            return data.title.range(of: searchText, options: .diacriticInsensitive) != nil
         })
         return filteredFruits
     }
