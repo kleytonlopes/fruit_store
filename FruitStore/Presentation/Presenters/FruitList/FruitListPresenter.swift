@@ -15,8 +15,18 @@ class FruiListPresenter: FruiListPresenterProtocol {
     var shoppingCartMenuButton: ShoppingCartMenuButton?
     // MARK: - Properties
     var allFruits = [FruitCellViewModel]()
-    var filteredFruits = [FruitCellViewModel]()
-    var shoppingCartFruits = [FruitCellViewModel]()
+    var filteredFruits: [FruitCellViewModel] {
+        let filteredFruits = searchText.isEmpty ? allFruits : allFruits.filter({(data: FruitCellViewModel) -> Bool in
+            return data.title.range(of: searchText, options: .caseInsensitive) != nil
+        })
+        return filteredFruits
+    }
+    var shoppingCartFruits: [FruitCellViewModel] {
+        let shoppingFruits = allFruits.filter({(data: FruitCellViewModel) -> Bool in
+            return data.quantity > 0
+        })
+        return shoppingFruits
+    }
     var searchText: String = ""
     var numberOfFilteredFruits: Int {
         return filteredFruits.count
@@ -45,32 +55,21 @@ class FruiListPresenter: FruiListPresenterProtocol {
                 self.allFruits = FruitCellViewModel.fromFruitListModel(fruitListModel: data)
             }
         })
-        filteredFruits = allFruits
     }
     func configure(cell: FruitCellView, forRow row: Int) {
         let fruit = filteredFruits[row]
         cell.setData(model: fruit)
     }
     func filterTableViewData(searchText: String) {
-        filteredFruits = searchText.isEmpty ? allFruits : allFruits.filter({(data: FruitCellViewModel) -> Bool in
-            return data.title.range(of: searchText, options: .caseInsensitive) != nil
-        })
-        fruitsTableView?.reloadData()
         self.searchText = searchText
+        fruitsTableView?.reloadData()
     }
     func addItemToShoppingCart(item: FruitCellViewModel) {
         if !shoppingCartFruits.contains(item) {
-            shoppingCartFruits.append(item)
-            shoppingCartFruits[shoppingCartFruits.count - 1].addItem()
             if let indexOf2 = allFruits.firstIndex(of: item) {
                 allFruits[indexOf2].addItem()
-
             }
         } else {
-            if let indexOf = shoppingCartFruits.firstIndex(of: item) {
-                shoppingCartFruits[indexOf].addItem()
-
-            }
             if let indexOf2 = allFruits.firstIndex(of: item) {
                 allFruits[indexOf2].addItem()
             }
@@ -80,12 +79,6 @@ class FruiListPresenter: FruiListPresenterProtocol {
     }
     func removeItemFromShoppingCart(item: FruitCellViewModel) {
         if shoppingCartFruits.contains(item) {
-            if let indexOf = shoppingCartFruits.firstIndex(of: item) {
-                shoppingCartFruits[indexOf].subtractItem()
-                if shoppingCartFruits[indexOf].quantity == 0 {
-                    shoppingCartFruits.remove(at: indexOf)
-                }
-            }
             if let indexOf2 = allFruits.firstIndex(of: item) {
                 allFruits[indexOf2].subtractItem()
             }
