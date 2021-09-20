@@ -37,11 +37,10 @@ class NavigationController: UINavigationController {
 
     // MARK: - Public Methods
     public func setRootViewController(_ viewController: UIViewController) {
-        setViewControllers([viewController], animated: true)
+        setViewControllers([viewController], animated: false)
         currentViewController = viewController
         hideBackButtonText()
     }
-
     public func pushViewController(_ viewController: UIViewController) {
         pushViewController(viewController, animated: true)
         currentViewController = viewController
