@@ -111,7 +111,7 @@ extension FruitCell: CodeViewProtocol {
 extension FruitCell: FruitCellView {
     func setData(model: FruitCellViewModel) {
         self.currentItem = model
-        fruitImageView.sd_setImage(with: model.imageURL)
+        fruitImageView.setImageWithCache(url: model.imageURL)
         let quantityString = model.quantity > 0 ? "\(model.quantity ) x " : ""
         titleLabel.text = String.init(format: "%@%@", quantityString, model.title)
         priceLabel.text = model.priceString()

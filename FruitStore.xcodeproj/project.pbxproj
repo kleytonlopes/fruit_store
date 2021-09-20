@@ -35,6 +35,7 @@
 		06B0D6A026F566A10012C741 /* FruitCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B0D69F26F566A10012C741 /* FruitCellViewModel.swift */; };
 		06B0D6A226F566B00012C741 /* FruitListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B0D6A126F566B00012C741 /* FruitListPresenter.swift */; };
 		06B0D6A426F56F7E0012C741 /* FruitListControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B0D6A326F56F7E0012C741 /* FruitListControllerFactory.swift */; };
+		06C2A0CB26F8B18700B301E5 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2A0CA26F8B18700B301E5 /* UIImageView+Extensions.swift */; };
 		06DAC4B426F38A2C00B2E142 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC4B326F38A2C00B2E142 /* AppDelegate.swift */; };
 		06DAC4B626F38A2C00B2E142 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC4B526F38A2C00B2E142 /* SceneDelegate.swift */; };
 		06DAC4B826F38A2C00B2E142 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAC4B726F38A2C00B2E142 /* LoginViewController.swift */; };
@@ -128,6 +129,7 @@
 		06B0D69F26F566A10012C741 /* FruitCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCellViewModel.swift; sourceTree = "<group>"; };
 		06B0D6A126F566B00012C741 /* FruitListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitListPresenter.swift; sourceTree = "<group>"; };
 		06B0D6A326F56F7E0012C741 /* FruitListControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitListControllerFactory.swift; sourceTree = "<group>"; };
+		06C2A0CA26F8B18700B301E5 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		06DAC4B026F38A2C00B2E142 /* FruitStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06DAC4B326F38A2C00B2E142 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06DAC4B526F38A2C00B2E142 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -218,6 +220,7 @@
 		06A58BDA26F8929600D37452 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				06C2A0CC26F8B1DF00B301E5 /* MySDWebImage */,
 				06A58BDD26F892BF00D37452 /* PDF */,
 			);
 			path = Helpers;
@@ -267,6 +270,14 @@
 				06B0D6A126F566B00012C741 /* FruitListPresenter.swift */,
 			);
 			path = FruitList;
+			sourceTree = "<group>";
+		};
+		06C2A0CC26F8B1DF00B301E5 /* MySDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				06C2A0CA26F8B18700B301E5 /* UIImageView+Extensions.swift */,
+			);
+			path = MySDWebImage;
 			sourceTree = "<group>";
 		};
 		06DAC4A726F38A2C00B2E142 = {
@@ -818,6 +829,7 @@
 				06A58BDC26F892BB00D37452 /* PDFCreator.swift in Sources */,
 				06DAC4B426F38A2C00B2E142 /* AppDelegate.swift in Sources */,
 				06DAC50226F3C41500B2E142 /* Model+Extensions.swift in Sources */,
+				06C2A0CB26F8B18700B301E5 /* UIImageView+Extensions.swift in Sources */,
 				06DAC4E726F38E3100B2E142 /* LoginView.swift in Sources */,
 				06B0D69126F4C6AB0012C741 /* NavigationController.swift in Sources */,
 				06A58BB326F853CE00D37452 /* FruitsTableView.swift in Sources */,
