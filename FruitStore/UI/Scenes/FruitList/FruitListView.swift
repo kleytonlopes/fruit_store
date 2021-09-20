@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FruitsView: UIView {
+class FruitListView: UIView {
     // MARK: - Properties
     var presenter: FruiListPresenterProtocol?
     lazy var searchController: FruitsSearchController = FruitsSearchController(searchResultsController: nil)
@@ -22,7 +22,7 @@ class FruitsView: UIView {
     }
 }
 // MARK: - CodeViewProtocol
-extension FruitsView: CodeViewProtocol {
+extension FruitListView: CodeViewProtocol {
     func buildViewHierarchy() {
         addSubview(tableView)
     }
@@ -46,7 +46,7 @@ extension FruitsView: CodeViewProtocol {
     }
 }
 // MARK: - UITableViewDelegate | UITableViewDataSource
-extension FruitsView: UITableViewDelegate, UITableViewDataSource {
+extension FruitListView: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return presenter?.numberOfFilteredFruits ?? 0
     }
@@ -63,7 +63,7 @@ extension FruitsView: UITableViewDelegate, UITableViewDataSource {
     }
 }
 // MARK: - UISearchResultsUpdating
-extension FruitsView: UISearchResultsUpdating {
+extension FruitListView: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
         if let searchText = searchController.searchBar.text {
             presenter?.filterTableViewData(searchText: searchText)
@@ -71,13 +71,13 @@ extension FruitsView: UISearchResultsUpdating {
     }
 }
 // MARK: - FruitsTableView
-extension FruitsView: TableView {
+extension FruitListView: TableView {
     func reloadData() {
         self.tableView.reloadData()
     }
 }
 // MARK: - FruitCellDelegate
-extension FruitsView: FruitCellDelegate {
+extension FruitListView: FruitCellDelegate {
     func removeItem(item: FruitCellViewModel) {
         presenter?.removeItemFromShoppingCart(item: item)
     }

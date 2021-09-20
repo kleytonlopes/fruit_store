@@ -7,6 +7,6 @@
 
 import Foundation
 
-protocol FruitsViewProtocol: AnyObject {
+protocol FruitListViewProtocol: AnyObject {
     func goToNextScreen()
 }

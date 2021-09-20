@@ -7,11 +7,11 @@
 
 import UIKit
 
-protocol FruitsViewRouter: AnyObject {
+protocol FruitListViewRouter: AnyObject {
     func goToShoppingCart(shoppingCartItems: [FruitCellViewModel])
 }
 
-class FruitsViewRouterImplementation: FruitsViewRouter {
+class FruitsViewRouterImplementation: FruitListViewRouter {
     private let nav: NavigationController?
     private let shoppingCartFactory: (_ shoppingCartItems: [FruitCellViewModel]) -> ShoppingCartViewController
 
