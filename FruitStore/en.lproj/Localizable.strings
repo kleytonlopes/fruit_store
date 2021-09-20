@@ -1,7 +1,7 @@
 "login-view-title" = "Fruit Store";
 "login-button-title" = "Login";
-"login-placeholder-username" = "enter login";
-"login-placeholder-password" = "enter password";
+"login-placeholder-username" = "enter login (ex: 'Teste')";
+"login-placeholder-password" = "enter password (ex: '1234')";
 "login-alert-view-error-title" = "Error";
 "login-alert-view-error-message" = "Unauthorized User!";
 
