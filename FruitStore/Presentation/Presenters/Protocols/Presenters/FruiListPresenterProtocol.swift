@@ -10,7 +10,7 @@ protocol FruiListPresenterProtocol: AnyObject {
     var shoppingCartFruits: [FruitCellViewModel] { get }
     func loadView()
     func configure(cell: FruitCellView, forRow row: Int)
-    func filterTableViewData(searchText: String)
+    func filterFruits(searchText: String)
     func addItemToShoppingCart(item: FruitCellViewModel)
     func removeItemFromShoppingCart(item: FruitCellViewModel)
 }

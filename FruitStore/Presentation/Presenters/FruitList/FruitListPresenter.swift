@@ -67,7 +67,7 @@ class FruiListPresenter: FruiListPresenterProtocol {
         let fruit = filteredFruits[row]
         cell.setData(model: fruit)
     }
-    func filterTableViewData(searchText: String) {
+    func filterFruits(searchText: String) {
         self.searchText = searchText
         fruitsTableView?.reloadData()
     }
@@ -75,7 +75,7 @@ class FruiListPresenter: FruiListPresenterProtocol {
         if let indexOf2 = allFruits.firstIndex(of: item) {
             allFruits[indexOf2].addItem()
         }
-        filterTableViewData(searchText: searchText)
+        filterFruits(searchText: searchText)
         shoppingCartMenuButton?.setQuantity(value: numberOfSelectedFruits)
     }
     func removeItemFromShoppingCart(item: FruitCellViewModel) {
@@ -85,7 +85,7 @@ class FruiListPresenter: FruiListPresenterProtocol {
         if let indexOf2 = allFruits.firstIndex(of: item) {
             allFruits[indexOf2].subtractItem()
         }
-        filterTableViewData(searchText: searchText)
+        filterFruits(searchText: searchText)
         shoppingCartMenuButton?.setQuantity(value: numberOfSelectedFruits)
     }
 }

@@ -66,7 +66,7 @@ extension FruitListView: UITableViewDelegate, UITableViewDataSource {
 extension FruitListView: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
         if let searchText = searchController.searchBar.text {
-            presenter?.filterTableViewData(searchText: searchText)
+            presenter?.filterFruits(searchText: searchText)
         }
     }
 }
